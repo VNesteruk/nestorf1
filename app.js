@@ -23,7 +23,7 @@ const nationalityEmoji = {
 }
 
 // 1️⃣ — Заповнюємо роки (2020–2025)
-for (let year = 2020; year <= 2025; year++) {
+for (let year = 2000; year <= 2025; year++) {
   const option = document.createElement("option")
   option.value = year
   option.textContent = year
